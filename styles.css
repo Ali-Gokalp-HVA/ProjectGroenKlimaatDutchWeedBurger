@@ -1,0 +1,149 @@
+* {
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+
+
+nav ul {
+    justify-content: center;  
+    flex-wrap: nowrap; 
+    display: flex;
+    list-style: none;
+    gap: 1em; 
+    font-family: 'Montserrat', sans-serif;
+    padding: 0; 
+    margin: 0 auto; 
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    background-color: #e40a1a;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px; 
+    display: flex;
+    
+}
+
+.aarde {
+    margin: 0 auto; 
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    
+    
+}
+
+.achtergrond-home {
+background-color: black;
+background: linear-gradient(to bottom, black 30%, #e40a1a);
+}
+
+.tekst {
+    text-align: left;
+    padding-left: 30px; 
+    padding-right: 30px; 
+
+   
+}
+
+.onderwater {
+    margin: 0 auto; 
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: #67D0E0;
+    background: linear-gradient(to top, #67D0E0 70%, #970814);
+}
+
+.nav-link.active {
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .burgerfotos {
+margin-top: 5%;
+width: 100px
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #58b77d;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: roboto;
+
+  }
+
+  .klimaatfotos {
+    margin-top: 5%;
+    width: 150px
+  }
+
+  footer .link {
+    color: white;
+    text-decoration: underline;
+    font-family: roboto;
+}
